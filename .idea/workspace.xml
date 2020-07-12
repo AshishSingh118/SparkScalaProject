@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89008888-1870-4473-b21d-70b43ea9b039" name="Default Changelist" comment="" />
+    <list default="true" id="89008888-1870-4473-b21d-70b43ea9b039" name="Default Changelist" comment="Commiting New Codes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/common/Node.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/common/mainMethods.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/common/mainMethods.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/spark/core/MySQLPractice.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/spark/core/MySQLPractice.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkUseCase/ValidatingTables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkUseCase/ValidatingTables.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkUseCase/firstSparkProgram.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkUseCase/firstSparkProgram.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SparkScalaProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SparkScalaProject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/ReadingConfigDetails$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/ReadingConfigDetails$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/ReadingConfigDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/ReadingConfigDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/mainMethods$class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/mainMethods$class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/mainMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/mainMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/core/MySQLPractice$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spark/core/MySQLPractice$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/core/MySQLPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spark/core/MySQLPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkUseCase/firstSparkProgram$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkUseCase/firstSparkProgram$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sparkUseCase/firstSparkProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sparkUseCase/firstSparkProgram.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,6 +50,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dg0yQoZYBUHK2E0jRO45arORbW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -48,7 +72,21 @@
       <recent name="E:\IdeaProject\Project\SparkScalaProject\src\main\scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadingConfigDetails">
+  <component name="RunManager" selected="Application.LocalMain">
+    <configuration name="LocalMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Zomato.LocalMain" />
+      <module name="SparkScalaProject" />
+      <option name="PROGRAM_PARAMETERS" value="/$PROJECT_DIR$/../../SourceData/Kaggle/Zomato/CountryCode.xlsx /$PROJECT_DIR$/../../SourceData/Kaggle/Zomato/Zomato.csv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zomato.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadingConfigDetails" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -122,9 +160,11 @@
       <item itemvalue="Application.ValidatingTables" />
       <item itemvalue="Application.ReadingConfigDetails" />
       <item itemvalue="Maven.SparkScalaProject [package]" />
+      <item itemvalue="Application.LocalMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocalMain" />
         <item itemvalue="Application.ReadingConfigDetails" />
         <item itemvalue="Application.firstSparkProgram" />
         <item itemvalue="Application.ValidatingTables" />
@@ -157,7 +197,15 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commiting New Codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting New Codes" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="495" y="92" key="#LocalMain" timestamp="1594579590427">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="495" y="92" key="#LocalMain/0.0.1536.824@0.0.1536.824" timestamp="1594579590427" />
     <state x="272" y="25" key="#Project_Structure" timestamp="1592832813059">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -166,10 +214,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="170" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593800664167" />
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593801618677">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594581896352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593801618677" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594581896352" />
     <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593598433070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -186,27 +234,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="571" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1593603379538" />
+    <state x="420" y="9" key="CommitChangelistDialog2" timestamp="1594582429293">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="420" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594582429293" />
     <state x="520" y="122" key="FileChooserDialogImpl" timestamp="1593681492329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="460" y="108" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1592831712682" />
     <state x="520" y="122" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593681492329" />
-    <state width="1493" height="89" key="GridCell.Tab.0.bottom" timestamp="1593945690004">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1594582193450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="89" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593945690004" />
-    <state width="1493" height="89" key="GridCell.Tab.0.center" timestamp="1593945690004">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594582193450" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1594582193450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="89" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593945690004" />
-    <state width="1493" height="89" key="GridCell.Tab.0.left" timestamp="1593945690004">
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594582193450" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1594582193450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="89" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593945690004" />
-    <state width="1493" height="89" key="GridCell.Tab.0.right" timestamp="1593945690004">
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594582193450" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1594582193450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="89" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593945690004" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594582193450" />
     <state x="207" y="0" key="SettingsEditor" timestamp="1593681774825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

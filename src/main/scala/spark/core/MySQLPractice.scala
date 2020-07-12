@@ -8,7 +8,7 @@ object MySQLPractice  extends mainMethods {
 
 
 
-    val spark = SparkSession.builder.master("local[*]").appName("mysqlpractice")
+    override val spark = SparkSession.builder.master("local[*]").appName("mysqlpractice")
       .config("spark.sql.warehouse.dir", "/home/hadoop/work/warehouse")
       .enableHiveSupport().getOrCreate()
 

@@ -12,7 +12,7 @@ val inputTables:Option[String]=Some("cust ,loan ,account,transaction,cashflow1")
     case Some(tablesname) =>
       tablesname.split(",").map(_.trim).filter(_.nonEmpty).flatMap{ hive =>
       ref_tables.find( _.name == hive)}.toSeq
-
+    case _ =>  ref_tables
   }
 
   core.foreach(println)
